@@ -33,7 +33,7 @@ PROMPT_TEMPLATE = """
 
 def dataframe_agent(openai_api_key, df, query):
     model = ChatOpenAI(model="gpt-4-all",
-                       openai_api_key="sk-WtzL8LXeXnPFN2qoD9D74fCc797f4b68B2Ae34E188D5Cd77",
+                       openai_api_key="sk-JzOv1zRZcgPP7vg38022Db9dC75b4fE9Ac40F4FfC8CbFeE4",
                        openai_api_base="https://api.bianxieai.com/v1",
                        temperature=0)
     agent = create_pandas_dataframe_agent(llm=model,
